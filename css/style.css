@@ -1,0 +1,28 @@
+html, body {
+  background: rgb(11,80,119);
+  background: linear-gradient(180deg, rgba(11,80,119,1) 0%, rgba(154,176,190,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  position: relative;
+  z-index: 2;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navidad{
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 150px;
+  color: #e6739f;
+  margin: 0;
+  -webkit-text-stroke: white 2px;
+}
